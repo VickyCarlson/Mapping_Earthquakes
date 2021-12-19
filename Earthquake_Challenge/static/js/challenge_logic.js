@@ -176,15 +176,10 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
 
   // 8. Add the major earthquakes layer to the map.
 }).addTo(majorEarthquakes);
-
   
   // 9. Close the braces and parentheses for the major earthquake data.
   });
   
-  
-
-
-
   // Here we create a legend control object.
 let legend = L.control({
   position: "bottomright"
@@ -216,7 +211,6 @@ legend.onAdd = function() {
 
   // Finally, we our legend to the map.
   legend.addTo(map);
-
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   
